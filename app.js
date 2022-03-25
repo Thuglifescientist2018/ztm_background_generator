@@ -10,11 +10,11 @@ function setDirection(e) {
     var rect = e.target.getBoundingClientRect();
     var x = e.clientX - rect.left; //x position within the element.
     var y = e.clientY - rect.top;  //y position within the element.
-    console.log("X: " + x, "Y: " + y);
+    
     var d_nav_left = d_nav.style.left = x  + "px";
     var d_nav_top = d_nav.style.top =  y  + "px";
     var degree = x + y /2 + "deg";
-    console.log("degree: ", degree)
+    
     setGradient(color1.value, color2.value, degree)
 
     
@@ -39,8 +39,8 @@ function gradientGenerator() {
     let b2 = Math.floor(Math.random() * 256);
     let color1 = "rgb(" + r + "," + g + "," + b + ")";
     let color2 = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
-    console.log("color1: ", color1);
-    console.log("color2: ", color2);
+    
+    
     setGradient(color1, color2, "to right")
 
 }

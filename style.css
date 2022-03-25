@@ -1,0 +1,52 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  top: 15%;
+}
+#head {
+  background: gray;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 100px;
+}
+
+#generate {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  background: url("https://bit.ly/nose___") no-repeat center 80% / cover;
+}
+#direction {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: url("./images/mouth.jpg") no-repeat center center/170%;
+  margin: 1rem auto;
+}
+#direction #d_nav {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: url("./images/toothbrush.png") no-repeat -100% 5vh / cover;
+
+  z-index: 5;
+}
+h1 {
+  font: 600 3.5em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+}
+
+h3 {
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
